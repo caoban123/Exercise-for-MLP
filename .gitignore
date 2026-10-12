@@ -1,0 +1,26 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Local configuration and credentials
+.env
+.env.*
+.aws/
+.codex/
+.agents/
+
+# Large FER image dataset (keep locally)
+/data/archive.zip
+/data/train/
+/data/test/
+
+# Generated model files
+*.pt
+*.pth
+
+# OS files
+.DS_Store
+Thumbs.db
